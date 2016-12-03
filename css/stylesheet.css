@@ -74,9 +74,14 @@ p#footer {
 /***************************/
 
 @media (min-width: 992px) {
+  .row {
+    margin-left: 1%;
+  }
   .col-lg {
     width: 31.5%;
     float: left;
+    height: 260px;
+    overflow: hidden;
   }
 }
 
@@ -86,6 +91,8 @@ p#footer {
   .col-md-1 {
     width: 48%;
     float: left;
+    height: 240px;
+    overflow: hidden;
   }
   .col-md-2 {
     width: 97.5%;
@@ -94,3 +101,13 @@ p#footer {
   }
 }
 
+/***************************/
+
+@media (max-width: 767px) {
+  .row {
+    margin-left: 5%;
+  }
+  .col {
+    margin-right: 10%;
+  }
+}
