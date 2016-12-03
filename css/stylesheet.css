@@ -17,16 +17,15 @@ h1 {
 }
 
 .row {
+  clear: left;
   width: 100%;
   height: inherit;
-  clear: left;
   overflow: hidden;
-  margin-right: 15px;
+  position: relative;
   padding-right: 15px;
-  background-color: #aaa;
 }
 
-.row > .col {
+.col {
   border: solid;
   border-width: 2px;
   background-color: #ccc;
@@ -76,10 +75,12 @@ p#footer {
 
 @media (min-width: 992px) {
   .col-lg {
-    width: 31%;
+    width: 31.5%;
     float: left;
   }
 }
+
+/***************************/
 
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1 {
@@ -87,11 +88,9 @@ p#footer {
     float: left;
   }
   .col-md-2 {
-    position: relative;
     width: 97.5%;
     clear: left;
     margin-top: 15px;
   }
 }
-
 
