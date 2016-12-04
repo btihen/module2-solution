@@ -39,6 +39,10 @@ h3 {
   padding-left: 15px;
 }
 
+p { 
+  padding-left: 15px;
+}
+
 h4 {
   width: 120px;
   border: solid;
@@ -52,11 +56,8 @@ h4 {
   text-align: center;
 }
 
-p {
+div > div > p {
   padding: 15px;
-}
-
-div > p {
   margin-top: 25px;
   clear: right;
   overflow: hidden;
@@ -76,11 +77,14 @@ div > p {
 
 footer {
   clear: left;
+  height: 50px;
+  padding-top: 16px;
+  background-color: #999;
 }
 
 p#footer {
   text-align: center;
-  background-color: #999;
+  vertical-align: middle;
 }
 
 /***************************/
