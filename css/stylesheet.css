@@ -27,11 +27,16 @@ h1 {
 }
 
 .content {
+  height: 150px;
   border: solid;
   border-width: 2px;
   overflow: hidden;
   position: relative;
   background-color: #ccc;
+}
+
+h3 {
+  padding-left: 15px;
 }
 
 h4 {
@@ -85,10 +90,6 @@ p#footer {
     margin-left: 1%;
     overflow: hidden;
   }
-  .con-lg {
-    height: 150px;
-    overflow: hidden;
-  }
   .col-lg {
     width: 33%;
     float: left;
@@ -98,9 +99,6 @@ p#footer {
 /***************************/
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .con-md-1 {
-    height: 150px;
-  }
   .col-md-1 {
     width: 50%;
     float: left;
@@ -115,10 +113,8 @@ p#footer {
 /***************************/
 
 @media (max-width: 767px) {
-  .row {
+  body {
     margin-left: 5%;
-  }
-  .col {
-    margin-right: 10%;
+    margin-right: 5%;
   }
 }
